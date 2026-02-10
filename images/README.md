@@ -1,0 +1,2 @@
+Place your image files here (e.g., image.png, image1.png, man1.png, back.png, web.png, ui.png, mui.png, man2.png).
+This folder was created automatically. Replace these placeholders with your real images.

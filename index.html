@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Design</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="sticky-top shadow navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand fw-bold">SaulDesign</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        <!-- Hero Section -->
+        <div class="row hero-section">
+            <section class="col-12 col-md-6 p-5 d-flex flex-column justify-content-center">
+                <p class="display-1 fw-bold text-white">CREATIVE UI</p>
+                <h1 class="fw-bold display-1" style="color:rgba(0, 173, 181, 1);">DESIGNER</h1>
+                <div class="mt-4">
+                    <button class="btn-primary-custom">Hire me</button>
+                    <button class="btn-secondary-custom">Download CV</button>
+                </div>
+            </section>
+
+            <section class="col-12 col-md-6 p-5 d-flex align-items-center justify-content-center">
+                <img style="width: 350px; background-image: url(nimage/back.png);" src="nimage/man1.png" alt="Designer" class="img-fluid about-img">
+            </section>
+        </div>
+
+        <!-- About Me Section -->
+        <div class="row about-section">
+            <section class="col-12 col-md-6 p-5 d-flex flex-column justify-content-center">
+                <h2 class="about-title">About <span class="about-highlight">me</span></h2>
+                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec libero egestas, vehicula ex quis, mollis felis. Pellentesque eu velit elementum odio malesuada blandit et a tortor. Curabitur sed nibh volutpis. Suspendisse potenti. Sed dapibus lorem in augue dapibus, ac finibus est tristique. Curabitur tortor eros et <a href="#" class="read-more">read more</a></p>
+            </section>
+
+            <section class="col-12 col-md-6 p-5 d-flex align-items-center justify-content-center position-relative">
+                <img style="background-image: url(nimage/back.png);" src="nimage/man2.png" alt="About Illustration" class="img-fluid about-img">
+            </section>
+        </div>
+        <div style="background-image: url(nimage/back.png);" class="row My-recent-works">
+            <section class="col-12 p-5 d-flex flex-column justify-content-center">
+                <h2 class="about-title">My recent <span class="about-highlight">works</span></h2>
+                
+                <!-- Filter Buttons -->
+                <div class="filter-buttons mt-4 mb-5">
+                   <button class="filter-btn filter-btn-active">All</button>
+                   <button class="filter-btn">UI</button>
+                   <button class="filter-btn">UX</button>
+                   <button class="filter-btn">Web Design</button>
+                </div>
+
+
+                <!-- Portfolio Grid -->
+                <div class="row g-4">
+                    <div id="ui" class="col-12 col-md-6 col-lg-4">
+                        <div class="work-card">
+                            <img src="nimage/web.png" alt="Work 1" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Learn UI Design</h5>
+                                <p class="card-text">Create stunning visual designs and interfaces.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ux" class="col-12 col-md-6 col-lg-4">
+                        <div class="work-card">
+                            <img src="nimage/ui.png" alt="Work 2" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Web Development</h5>
+                                <p class="card-text">Build responsive and modern websites.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="web" class="col-12 col-md-6 col-lg-4">
+                        <div class="work-card">
+                            <img src="nimage/mui.png" alt="Work 3" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile App Design</h5>
+                                <p class="card-text">Design beautiful mobile applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+        </div>
+        <!-- Contact Section -->
+        <div class="row contact-section">
+            <section class="col-12 col-md-6 p-5 d-flex align-items-center justify-content-center">
+                <img   style="width: 300px; " src="nimage/image.png" alt="Contact" class="img-fluid about-img" >
+            </section>
+
+            <section class="col-12 col-md-6 p-5 d-flex flex-column justify-content-center">
+                <h2 class="about-title">Got a project in <span class="about-highlight">mind?</span></h2>
+
+                <form class="contact-form mt-4">
+                    <div class="mb-3">
+                        <label class="form-label" style="display:block; margin-bottom:8px; color:rgba(255,255,255,0.8); font-size:0.9rem;">Your name</label>
+                        <input type="text" class="form-control" placeholder="Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" style="display:block; margin-bottom:8px; color:rgba(255,255,255,0.8); font-size:0.9rem;">Your email</label>
+                        <input type="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" style="display:block; margin-bottom:8px; color:rgba(255,255,255,0.8); font-size:0.9rem;">Your Message</label>
+                        <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary-custom">Send Message 🚀</button>
+                </form>
+            </section>
+
+            <div class="col-12 p-5 d-flex">
+            <section class="col-12 col-md-6 p-5 d-flex align-items-center justify-content-center">
+                <img   style="width: 300px; " src="nimage/image1.png" alt="Contact" class="img-fluid about-img" >
+
+            </section>
+            </section>
+        </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-5">
+  <div class="container">
+
+    <!-- Middle Row: Navigation Links -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-auto d-flex gap-4 align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="images/home.png" width="20" height="20" alt="Home">
+          <span>Home</span>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+          <img src="images/cont.png" width="20" height="20" alt="About">
+          <span>About me</span>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+          <img src="images/.png" width="20" height="20" alt="Contact">
+          <span>Contact</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Middle Row: Social Icons -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-auto d-flex gap-3">
+        <!-- Added a circular border/bg style for the icons -->
+        <a href="#" class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;">
+          <img src="images/Facebook.png" width="20" alt="Facebook">
+        </a>
+        <a href="#" class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;">
+          <img src="images/inst.png" width="20" alt="Instagram">
+        </a>
+        <a href="#" class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;">
+          <img src="images/tw.png" width="20" alt="Twitter">
+        </a>
+        <a href="#" class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;">
+          <img src="images/youtube.png" width="20" alt="YouTube">
+        </a>
+      </div>
+    </div>
+
+    <!-- Bottom Row: Copyright and Legal -->
+    <div class="row border-top pt-4 mt-4 opacity-75 small">
+      <div class="col-md-6 text-center text-md-start">
+        <p>© 2024 Your Company. All rights reserved.</p>
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <a href="#" class="text-white text-decoration-none">Terms of Service</a> - 
+        <a href="#" class="text-white text-decoration-none">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
